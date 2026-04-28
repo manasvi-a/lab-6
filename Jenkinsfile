@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/manasvi-a/ven.git',
+                    url: 'https://github.com/manasvi-a/lab-6.git',
                     credentialsId: 'github-token'
             }
         }
